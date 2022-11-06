@@ -22,15 +22,15 @@ features = ["52832"]
 default-target = "x86_64-unknown-linux-gnu"
 
 [dependencies]
-nrf51-pac = { version = "0.10.1", optional = true }
-nrf52810-pac = { version = "0.10.1", optional = true }
-nrf52832-pac = { version = "0.10.1", optional = true }
-nrf52833-pac = { version = "0.10.1", optional = true }
-nrf52840-pac = { version = "0.10.1", optional = true }
+nrf51-pac = { version = "0.12", optional = true }
+nrf52810-pac = { version = "0.12", optional = true }
+nrf52832-pac = { version = "0.12", optional = true }
+nrf52833-pac = { version = "0.12", optional = true }
+nrf52840-pac = { version = "0.12", optional = true }
 log = { version = "0.4.8", optional = true }
 
 [dependencies.bbqueue]
-version = "0.4.10"
+version = "0.4.12"
 default-features = false
 
 [features]
